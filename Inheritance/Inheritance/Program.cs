@@ -1,10 +1,19 @@
 ﻿namespace Inheritance
 {
-    internal class Program
+
+    public class Person
     {
-        static void Main(string[] args)
+        public Person(string name, string surname, int age)
         {
-            Console.WriteLine("Hello, World!");
+            Name = name;
+            Surname = surname;
+            Age = age;
         }
+
+        public string Name { get; set; }
+        public string Surname { get; set; }
+        public int Age { get; set; }
     }
+    
+
 }
